@@ -26,7 +26,7 @@ export const Overlay = () => {
                     <h1 className="text-3xl font-extrabold">Hello World 👋</h1>
                     <p>I'm Aaron, Full-stack developer from Preston, UK.</p>
                     <p>
-                        currently enrolled in the Code Nation: Master Software bootcamp, and looking to start my career
+                        currently enrolled in the Code Nation: Master Software Bootcamp, and looking to start my career
                         in the tech industry.
                     </p>
                     <p className="mt-5 text-lg font-semibold animate-bounce">Scroll down to see more!</p>
