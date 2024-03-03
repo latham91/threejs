@@ -7,9 +7,9 @@ const Section = (props) => {
                 props.right ? "items-end" : "items-start"
             }`}
         >
-            <div className="w-1/2 flex items-center justify-center">
-                <div className="max-w-md w-full">
-                    <div className="bg-slate-800/70 backdrop-blur-lg rounded-lg p-5 border-4 border-white/50">
+            <div className="flex items-center justify-center w-1/2">
+                <div className="w-full max-w-md">
+                    <div className="p-5 border-4 rounded-lg bg-slate-800/70 backdrop-blur-lg border-white/50">
                         {props.children}
                     </div>
                 </div>
@@ -22,19 +22,19 @@ export const Overlay = () => {
     return (
         <Scroll html>
             <Section>
-                <div className="text-slate-200 flex flex-col gap-3">
-                    <h1 className="text-3xl  font-extrabold">Hello World 👋</h1>
+                <div className="flex flex-col gap-3 text-slate-200">
+                    <h1 className="text-3xl font-extrabold">Hello World 👋</h1>
                     <p>I'm Aaron, Full-stack developer from Preston, UK.</p>
                     <p>
                         currently enrolled in the Code Nation: Master Software bootcamp, and looking to start my career
                         in the tech industry.
                     </p>
-                    <p className="font-semibold text-lg animate-bounce mt-5">Scroll down to see more!</p>
+                    <p className="mt-5 text-lg font-semibold animate-bounce">Scroll down to see more!</p>
                 </div>
             </Section>
             <Section right>
-                <div className="text-slate-200 flex flex-col gap-3">
-                    <h1 className="text-3xl  font-extrabold">Skills 💻</h1>
+                <div className="flex flex-col gap-3 text-slate-200">
+                    <h1 className="text-3xl font-extrabold">Skills 💻</h1>
                     <p>Some of the skills I&apos;ve picked up on my journey.</p>
                     <ul className="font-semibold">
                         <li>- HTML</li>
@@ -50,8 +50,8 @@ export const Overlay = () => {
                 </div>
             </Section>
             <Section>
-                <div className="text-slate-200 flex flex-col gap-3">
-                    <h1 className="text-3xl  font-extrabold">Contact me 📞</h1>
+                <div className="flex flex-col gap-3 text-slate-200">
+                    <h1 className="text-3xl font-extrabold">Contact me 📞</h1>
                     <p>Get in touch with me.</p>
                     <ul>
                         <li>- in/aaronlathamdev</li>
